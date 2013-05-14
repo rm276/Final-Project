@@ -1,0 +1,875 @@
+body{
+padding:0px;
+margin-right:0px;
+margin-left:0px;
+background-image:url("../images/plantBg.png");
+background-repeat:no-repeat;
+background-position:center;
+background-position-y:100px;
+
+}
+banner a{
+text-decoration:none;
+
+}
+
+container{
+height:1000px;
+margin-right:auto;
+margin-left:auto;
+width:960px;
+padding:0px;
+
+}
+
+
+banner h1{
+
+width:900px;
+color:#FF6D00;
+text-align:center;
+font-family:arial;
+font-size:150px;
+font-weight:normal;
+letter-spacing:5px;
+margin:0 auto;
+margin-top:50px;
+!border:1px solid red;
+}
+!banner h2{
+
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Safari and Chrome */
+    -o-transform: rotate(90deg); /* Opera */
+    -moz-transform: rotate(90deg); /* Firefox */
+     
+!position:absolute;
+float:right;
+width:auto;
+color:#FF6D00;
+!text-align:center;
+font-family:arial;
+font-size:20px;
+font-weight:normal;
+letter-spacing:5px;
+margin:0 auto;
+!margin-top:50px;
+!border:1px solid red;
+}
+
+
+
+
+#content{
+margin: 0 auto;
+margin-top:50px;
+width: 555px;
+height:800px;
+!border:1px solid red;
+
+}
+
+#contentContainer{
+margin: 0 auto;
+margin-top:50px;
+width:90%;
+height:auto;
+!border:1px solid red;
+background-color:gray;
+!opacity:0.9;
+!filter:alpha(opacity=60); /* For IE8 and earslier */
+background: rgba(122, 116, 116, 0.8);
+padding-bottom:40px;
+padding-top:40px;
+}
+
+#contentCenter{
+!border:4px solid yellow;
+width:800px;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+
+margin-top:auto;
+margin-bottom:auto;
+}
+
+.contentJobContainer
+{
+!border:3px solid red;
+width:800px;
+height:225px;
+margin-left: auto;
+margin-right: auto;
+margin-top:25px;
+margin-bottom:25px;
+
+
+}
+
+
+a.continue{
+color:orange;
+font-weight:bold;
+padding:0;
+margin:0;
+text-decoration:none;
+}
+
+a:hover.continue{
+text-decoration:underline;
+}
+
+a:visited.continue{
+text-decoration:none;
+color:blue;
+font-weight:normal;
+}
+
+
+#jobText1{
+!border:1px solid red;
+width:510px;
+float:left;
+margin-right:25px;
+font-family:arial;
+color:white;
+word-spacing:3px;
+letter-spacing:1px;
+line-height:150%;
+font-size:120%;
+}
+
+.jobImage1{
+!border:1px solid blue;
+width:260px;
+height:220px;
+float:left;
+background-image:url("../images/medicalScientist.png");
+background-repeat:no-repeat;
+background-position:center;
+transition: .2s ease-out,  .2s ease-in;
+}
+
+
+.jobImage1:hover{
+background-image:url("../images/medicalScientistHover.png");
+}
+
+
+#jobText2{
+!border:1px solid red;
+width:510px;
+float:left;
+margin-right:25px;
+font-family:arial;
+color:white;
+word-spacing:3px;
+letter-spacing:1px;
+line-height:150%;
+font-size:120%;
+}
+
+.jobImage2{
+!border:1px solid blue;
+width:260px;
+height:220px;
+float:left;
+background-image:url("../images/bioChem.png");
+background-repeat:no-repeat;
+background-position:center;
+transition: .2s ease-out,  .2s ease-in;
+}
+
+.jobImage2:hover{
+
+background-image:url("../images/bioChemHover.png");
+
+}
+#jobText3{
+!border:1px solid red;
+width:510px;
+float:left;
+margin-right:25px;
+font-family:arial;
+color:white;
+word-spacing:3px;
+letter-spacing:1px;
+line-height:150%;
+font-size:120%;
+
+}
+
+.jobImage3{
+!border:1px solid blue;
+width:260px;
+height:220px;
+float:left;
+background-image:url("../images/bioPhys.png");
+background-repeat:no-repeat;
+background-position:center;
+transition: .2s ease-out,  .2s ease-in;
+}
+.jobImage3:hover{
+
+background-image:url("../images/bioPhysHover.png");
+
+
+}
+
+
+
+
+
+#aboutBox{
+float:left;
+padding:0px;
+margin:0px;
+width:555px;
+height:180px;
+background-color:#FF6D00;
+!border:1px solid red;
+float:left;
+}
+
+#aboutTitle
+{
+!border:1px solid black;
+width:auto;
+float:left;
+}
+#aboutTitle h2{
+margin:0px;
+font-size:55px;
+font-family:arial;
+font-weight:normal;
+padding:10px;
+padding-top:100px;
+padding-bottom:0px;
+margin:0;
+color:white;
+!border:1px solid white;
+float:left;
+
+}
+
+#aboutText {
+color:white;
+font-family:arial;
+font-size:20px;
+margin:0px;
+padding:10px;
+padding-top:40px;
+margin-left:110px;
+!border:1px solid yellow;
+float:left;
+}
+
+#scienceBox{
+margin-top:20px;
+!background-color:#FF6D00;
+width:268px;
+height:226px;
+float:left;
+margin-right:18px;
+
+
+}
+#scienceBox ul {
+!border:1px solid blue;
+list-style-type: none;
+margin: 0;
+margin-top:190px;
+padding:0px
+}
+
+#scienceBox li {
+margin:0px;
+display: inline;
+padding: 0px;
+font-size: 120%;
+}
+
+#scienceBox a:link, a:visited {
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:162px;
+padding-left:13px;
+background-image:url(../images/scienceIcon.png);
+transition: .3s ease-out,  .3s ease-in;
+background-repeat:no-repeat;
+
+
+}
+#scienceBox a:hover{
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:162px;
+padding-left:13px;
+background-image:url(../images/scienceIconHover.png);
+background-repeat:no-repeat;
+
+}
+
+
+#technologyBox{
+margin-top:20px;
+!background-color:#FF6D00;
+width:268px;
+height:226px;
+float:left;
+
+
+}
+#technologyBox ul {
+!border:1px solid blue;
+list-style-type: none;
+margin-top:190px;
+padding:0px
+}
+
+#technologyBox li {
+margin:0px;
+display: inline;
+padding: 0px;
+font-size: 120%;
+}
+
+#technologyBox a:link, a:visited {
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:128px;
+padding-left:13px;
+background-image:url(../images/technologyIcon.png);
+transition: .3s ease-out,  .3s ease-in;
+background-repeat:no-repeat;
+
+
+}
+#technologyBox a:hover{
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:128px;
+padding-left:13px;
+background-image:url(../images/technologyIconHover.png);
+background-repeat:no-repeat;
+
+}
+
+#engineeringBox{
+margin-top:20px;
+!background-color:#FF6D00;
+width:268px;
+height:226px;
+float:left;
+margin-right:18px;
+
+}
+#engineeringBox ul {
+!border:1px solid blue;
+list-style-type: none;
+margin: 0;
+margin-top:190px;
+padding:0px
+}
+
+#engineeringBox li {
+margin:0px;
+display: inline;
+padding: 0px;
+font-size: 120%;
+}
+
+#engineeringBox a:link, a:visited {
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:117px;
+padding-left:13px;
+background-image:url(../images/engineeringIcon.png);
+transition: .3s ease-out,  .3s ease-in;
+background-repeat:no-repeat;
+
+
+}
+#engineeringBox a:hover{
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:117px;
+padding-left:13px;
+background-image:url(../images/engineeringIconHover.png);
+background-repeat:no-repeat;
+
+}
+
+#mathBox{
+margin-top:20px;
+!background-color:#FF6D00;
+width:268px;
+height:226px;
+float:left;
+
+
+}
+#mathBox ul {
+!border:1px solid blue;
+list-style-type: none;
+margin-top:190px;
+padding:0px
+}
+
+#mathBox li {
+margin:0px;
+display: inline;
+padding: 0px;
+font-size: 120%;
+}
+
+#mathBox a:link, a:visited {
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:199px;
+padding-left:13px;
+background-image:url(../images/mathIcon.png);
+transition: .3s ease-out,  .3s ease-in;
+background-repeat:no-repeat;
+
+}
+#mathBox a:hover{
+padding-bottom:9px;
+font-family:arial;
+color: white;
+letter-spacing:2px;
+font-size:120%;
+text-decoration: none;
+!border:1px solid black;
+padding-top:190px;
+padding-right:199px;
+padding-left:13px;
+background-image:url(../images/mathIconHover.png);
+background-repeat:no-repeat;
+
+}
+#footer{
+padding-top:40px;
+margin:0 auto;
+background-color:#FF6D00;
+height:300px;
+}
+#footerStrip{
+
+margin:0 auto;
+margin-top:300px;
+background-color:gray;
+height:1px;
+}
+
+#footerText{
+!border:1px solid pink;
+font-family:arial;
+color:#C66E2C;
+padding-top:50px;
+margin:0 auto;
+width:555px;
+}
+
+#footerTextLeft{
+!border:3px solid black;
+margin:0 auto;
+margin-left:50px;
+width:100px;
+float:left;
+}
+#footerTextRight{
+float:right;
+!border:3px solid yellow;
+width:300px;
+margin:0 auto;
+}
+#footerText ul{
+margin:0px;
+padding:0px;
+
+}
+
+#footerText li{
+margin:0px;
+margin-bottom:10px;
+padding:0px;
+display:block;
+clear:both;
+}
+
+#footerText a{
+margin:0px;
+padding:0px;
+font-size:14px;
+text-decoration:none;
+color:white;
+
+}
+
+#footerTextLeft a{
+
+}
+
+#footerText a:hover{
+padding:0px;
+margin:0px;
+font-size:14px;
+text-decoration:none;
+color:#656565;
+
+}
+
+#iconDiv a.facebook{
+display:block;
+!border:1px solid black;
+float:left;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+margin:3px;
+margin-left:170px;
+
+}
+#iconDiv a:hover.facebook{
+float:;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+background-position:0px -26px;
+}
+
+#iconDiv a.twitter{
+display:block;
+!border:1px solid black;
+float:left;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+margin:3px;
+margin-left:170px;
+background-position:-25px 0px;
+
+}
+#iconDiv a:hover.twitter{
+float:;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+background-position:-25px -26px;
+}
+
+#iconDiv a.rss{
+display:block;
+!border:1px solid black;
+float:left;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+margin:3px;
+margin-left:170px;
+background-position:-50px 0px;
+
+}
+#iconDiv a:hover.rss{
+float:;
+height:25px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+background-position:-50px -25px;
+}
+#iconDiv a.google{
+display:block;
+!border:1px solid black;
+float:left;
+height:23px;
+width:25px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+margin:3px;
+margin-left:170px;
+background-position:-76px 0px;
+
+
+}
+#iconDiv a:hover.google{
+float:;
+height:23px;
+width:24px;
+!background-color:red;
+background-image:url('../images/iconSprite.png');
+background-position:-76px -26px;
+}
+
+/* --------------job detail css------------------*/
+
+#contentContainerJobDetailPage{
+margin: 0 auto;
+margin-top:50px;
+width:920px;
+height:700px;
+!border:1px solid red;
+!background-color:gray;
+!opacity:0.9;
+!filter:alpha(opacity=60); /* For IE8 and earslier */
+!background: rgba(122, 116, 116, 0.8);
+
+}
+
+#medianSalaryBox{
+width:262px;
+height:235px;
+background:rgba(122, 116, 116, 0.8);
+float:left;
+}
+
+#underGradBox{
+width:262px;
+height:235px;
+background:rgba(173, 136, 111, 0.8);
+float:left;
+}
+
+#growthBox{
+font-family:arial;
+font-weight:normal;
+font-size:16px;
+color:white;
+text-align:center;
+word-spacing:3px;
+letter-spacing:1px;
+width:262px;
+height:585px;
+background:rgba(173, 119, 83, 0.8);
+float:left;
+}
+
+#arrow{
+margin:auto;
+width:105px;
+height:208px;
+background-image:url("../images/arrow.png");
+background-position:center;
+margin-top:40px;
+}
+
+#topRight{
+float:left;
+width:134px;
+height:235px;
+background:rgba(109, 105, 102, 0.8);
+}
+
+
+
+#rightIcon{
+float:left;
+width:134px;
+height:116px;
+background:rgba(160, 128, 112, 0.8);
+background-image:url("../images/scienceIcon2.png");
+background-position:center;
+}
+
+#bottomRight{
+float:left;
+width:134px;
+height:234px;
+background:rgba(204, 119, 62, 0.8);
+}
+
+#wayBottomRight{
+float:right;
+width:396px;
+height:114px;
+background:rgba(204, 96, 19, 0.8);
+}
+
+#leftTextBox{
+padding:0px;
+position:absolute;
+float:left;
+width:524px;
+height:116px;
+background:rgba(204, 96, 19, 0.8);
+margin-top:235px;
+line-height:110%;
+}
+
+#hugeLeftBoxContainer{
+position:absolute;
+width:524px;
+height:348px;
+background:rgba(122, 116, 116, 0.8);
+float:left;
+margin-top:351px;
+}
+#quad1{
+float:left;
+!border:1px solid red;
+width:260px;
+height:174px;
+background-image:url("../images/quad1.png");
+background-position:center;
+background-repeat:no-repeat;
+}
+#quad2{
+float:left;
+!border:1px solid red;
+width:260px;
+height:174px;
+background-image:url("../images/quad2.png");
+background-position:center;
+background-repeat:no-repeat;
+}
+#quad3{
+float:left;
+!border:1px solid red;
+width:260px;
+height:174px;
+background-image:url("../images/quad3.png");
+background-position:center;
+background-repeat:no-repeat;
+}
+#quad4{
+float:left;
+!border:1px solid red;
+width:260px;
+height:174px;
+background-image:url("../images/quad4.png");
+background-position:center;
+background-repeat:no-repeat;
+}
+
+
+.quadText{
+margin:0;
+padding:10px;
+font-family:arial;
+font-weight:normal;
+font-size:12px;
+color:white;
+word-spacing:2px;
+letter-spacing:1px;
+text-align:center;
+margin-top:135px;
+}
+
+p.leftTextBox{
+margin:0;
+padding:10px;
+font-family:arial;
+font-weight:normal;
+font-size:16px;
+color:white;
+word-spacing:2px;
+letter-spacing:1px;
+}
+
+.wayBottomRight{
+!border:1px solid red;
+font-family:arial;
+font-weight:normal;
+font-size:40px;
+color:white;
+text-align:center;
+word-spacing:3px;
+letter-spacing:1px;
+!line-height:150%;
+padding:0;
+margin:0;
+padding-top:30px;
+
+}
+.detailPageh1{
+!border:1px solid red;
+font-family:arial;
+font-weight:normal;
+font-size:50px;
+color:white;
+text-align:center;
+word-spacing:3px;
+letter-spacing:1px;
+!line-height:150%;
+padding:0;
+margin:0;
+padding-top:85px;
+}
+
+.detailPageh2{
+!border:1px solid red;
+font-family:arial;
+font-weight:normal;
+font-size:16px;
+color:white;
+text-align:center;
+word-spacing:3px;
+letter-spacing:1px;
+padding:0;
+margin:0;
+}
+
+.percentage{
+font-family:arial;
+font-weight:bold;
+font-size:64px;
+color:#E8E1DD;
+text-align:center;
+word-spacing:3px;
+letter-spacing:1px;
+padding:0;
+margin:0;
+}
+
+
+
